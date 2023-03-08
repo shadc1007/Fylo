@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open sans';
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin: 4rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    color: hsl(238, 22%, 44%);
+    font-size: 1.78rem;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+/* end of nav */
+
+main {
+    /* height: 70vh; */
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 15em; 
+    width: 100%;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.left-col {
+    width: 45%;
+}
+
+h1, nav ul li a, button, h2 {
+    font-family: 'Raleway';
+}
+
+.main-text {
+    line-height: 1.5;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.subhead {
+    font-size: 1.78rem;
+}
+
+
+.cta-btn {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 10rem;
+    /* justify-content: space-between; */
+}
+
+input {
+    padding: 1rem;
+    width: 60%;
+    height: 4rem;
+    border-radius: .2em;
+    outline: none;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+
+.cta-main {
+    background: hsl(224, 93%, 58%);
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 1rem;
+    padding: .3rem 8rem;
+    outline: none;
+    border: none;
+    border-radius: .6em;
+    cursor: pointer;
+}
+
+.right-col img {
+    height: 50em;
+    width: 100%;
+    flex: 1;
+}
+
+
+.section-first {
+    margin-top: 20rem;
+    justify-content: space-between;
+    display: flex;
+    gap: 10em;
+}
+
+
+
+.img2nd {
+    /* height: 45em; */
+    width: 100%;
+}
+
+.section-mtext {
+    font-size: 4rem;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.5;
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-firstp {
+    width: 70%;
+    font-size: 1.78rem;
+    color: hsl(243, 87%, 12%);
+}
+
+.section-secondp {
+    width: 70%;
+    font-size: 1.78rem;
+    color: hsl(243, 87%, 12%);
+}
+
+.section-cta {
+    display: flex;
+    align-items: center;
+    gap: .7em;
+    position: relative;
+}
+
+.first {
+    margin-bottom: 5rem;
+}
+
+.section-cta a {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color:  hsl(170, 45%, 43%);
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.section-cta a::after {
+    content: "";
+    position: absolute;
+    width: 19%;
+    bottom: -5px;
+    left: 0px;
+    height: 1px;
+    background: hsl(170, 45%, 43%);
+}
+
+.second {
+    width: 60%;
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: hsl(243, 87%, 12%);
+}
+
+.card img {
+    height: 2em;
+    width: 1.5em;
+}
+
+.section-right {
+    display: flex;
+    align-items: center;
+}
+
+.card-person {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.card-person img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.card-person h5, .card-person p {
+    margin: 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.card-person h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section-second {
+    background: hsl(238, 22%, 44%);
+    padding: 10em 0;
+}
+
+.section-2nd-text {
+    width: 50%;
+}
+
+.section-2nd-text h3{
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+}
+
+.section-2nd-text p {
+    font-size: 1.78rem;
+    color: #fff;
+    font-weight: 100;
+    /* width: 65%; */
+}
+
+.section-secondflex {
+    display: flex;
+    gap: 10em;
+    /* justify-content: space-between; */
+}
+
+.section-2nd-cta {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2nd-cta input {
+    outline: 0;
+    border: 0;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.section-2nd-cta button {
+    color: white;
+    background: hsl(224, 93%, 58%);
+    font-family: 'Raleway';
+    display: inline;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    padding: 1em 2em;
+    cursor: pointer;
+    width: 30%;
+}
+
+footer {
+    background: hsl(243, 87%, 12%);
+    padding-block: 5rem;
+}
+
+.footer-container {
+    display: flex;
+    gap: 30rem;
+    align-items: flex-end;
+}
+
+.footer-1st {
+    display: flex;
+    flex-direction: column;
+    padding-block: 5rem;
+    color: white;
+    /* gap: 1rem; */
+}
+
+#logo{
+    width: 16.5rem;
+    filter: brightness(0) invert(1);
+    margin-bottom: 1rem;
+}
+
+.footer-1st-contact, .footer-2nd-contact {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-1st-contact p, .footer-2nd-contact p {
+    font-size: 1.4rem;
+}
+
+.footer-2nd {
+    display: flex;
+    gap: 20rem;
+}
+
+.first-list ul li, .second-list ul li, .third-list ul li {
+    list-style: none;
+}
+
+.first-list ul li a, .second-list ul li a, .third-list i{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.first-list ul li a, .second-list ul li a {
+    font-size: 1.7rem;
+}
+
+.third-list i {
+    font-size: 2rem;
+}
+
+.third-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.attribution { font-size: 11px; text-align: center; color:white;}
+.attribution a { color: hsl(228, 45%, 44%); }
